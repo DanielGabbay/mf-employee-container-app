@@ -1,0 +1,34 @@
+:root {
+  --app-font-size: 16px;
+  --app-font-family: 'Assistant';
+}
+
+/*html,*/
+/*body {*/
+/*  @apply block w-dvw h-dvh m-0 p-0;*/
+/*  font-family: var(--app-font-family), sans-serif;*/
+/*  font-size: var(--app-font-size);*/
+/*}*/
+
+/*body {*/
+/*  @apply flex w-full h-full bg-gray-100;*/
+/*}*/
+
+html, body {
+  display: block;
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  font-family: var(--app-font-family), sans-serif;
+  font-size: var(--app-font-size);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+

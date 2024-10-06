@@ -1,0 +1,59 @@
+.remote-menu {
+  position: fixed;
+  top: 1%;
+  left: 2%;
+  z-index: 1000;
+  background-color: #f8f9fa;
+  padding: 10px;
+  width: max-content;
+  height: max-content;
+  border: 1px solid #1c78d4;
+  border-radius: 5px;
+
+  li {
+    list-style-type: none;
+    margin: 5px 0;
+    cursor: pointer;
+
+    a {
+      color: #1c78d4;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #1c78d4;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+  }
+}
+
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.AppContainer {
+  display: block;
+  overflow: scroll;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/*// to set git remote url:
+git remote set-url origin https://github.com/your-username/your-repo-name.git
+https://github.com/DanielGabbay/mf-employee-app
+push to gh-pages:
+https://DanielGabbay.github.io/mf-employee-app
+*/
